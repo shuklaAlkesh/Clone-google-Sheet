@@ -48,3 +48,53 @@ Here are some snapshots of the Web Application Mimicking Google Sheets :
 
 5.  **Data Visualization (Planned):**
     *   Future implementation of charting and graphing capabilities to visually represent spreadsheet data.
+
+### Getting Started
+
+1.  **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/shuklaAlkesh/Clone-google-Sheet.git
+    cd Clone-google-Sheet
+    ```
+
+2.  **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+### Running the Application
+
+The application consists of both a backend server and a frontend client. To run both:
+
+1.  **Development mode (runs both client and server):**
+
+    ```bash
+    npm run dev
+    ```
+
+    This will start:
+
+    *   Frontend development server with hot reloading (typically on port 3000)
+    *   Backend server (typically on port 5000)
+
+### PostgreSQL Database Configuration
+
+The application uses a PostgreSQL database to store spreadsheet data. You will need to configure the database connection details in the `.env` file.
+
+```
+DATABASE_URL=postgres://<user>:<password>@<host>:<port>/<database>
+```
+
+Replace the placeholders with your actual PostgreSQL database credentials.
+
+## **Conclusion**  
+
+This **Google Sheets Clone** replicates essential spreadsheet functionalities while offering a seamless and user-friendly experience. With features like **formula support, data validation, spreadsheet management, and planned data visualization**, it serves as a powerful tool for organizing and analyzing data efficiently.  
+
+Whether you're managing financial records, tracking projects, or performing complex calculations, this application provides a **familiar and intuitive** environment for users. Future enhancements, such as **charting and advanced formula support**, will further improve its capabilities.  
+
+If you find this project helpful, feel free to **contribute, suggest improvements, or report issues** in the GitHub repository. Your feedback and support will help shape the next version of this powerful spreadsheet tool. 🚀  
+
+Happy Coding! 💡📊  
