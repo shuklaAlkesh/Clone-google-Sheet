@@ -7,6 +7,19 @@ This Google Sheets clone boasts a range of features designed to provide a famili
     *   Cell formatting options, including bold, italic, font size, and color.
     *   Ability to create Multiple file and save it so that it specify the the different file with differnt name and easy to find the file
 
+## Web Preview
+Here are some snapshots of the Web Application Mimicking Google Sheets :
+
+<p align="center">
+  <img src="images/1.png" width="500" hight="500">
+  <img src="images/2.png" width="500" hight="500">
+</p>
+
+<p align="center">
+   <img src="images/4.png" width="500" hight="500">
+  <img src="images/3.png" width="500" hight="500">
+</p>
+
 2.  **Formula Support:**
     *   SUM: Calculates the sum of values within a specified range (e.g., =SUM(A1:A10)).
     *   AVERAGE: Determines the average of values within a range (e.g., =AVERAGE(B1:B5)).
